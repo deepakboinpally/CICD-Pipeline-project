@@ -5,14 +5,13 @@
 In today's fast-paced software development environment, the need for efficient Continuous Integration and Continuous Deployment (CI/CD) processes is paramount. This project aimed to streamline the deployment of a Netflix-like application by leveraging Jenkins, an industry-standard automation server, to automate the build, test, and deployment stages.
 
 *Project Workflow:*
-1. *Source Code Acquisition:* The project begins by fetching the latest codebase from GitHub, ensuring that the development team always works with the most up-to-date version of the application.
-    repo:https://github.com/RAHAMSHAIK007/jenkins-java-project-1.git
-   
-3. *Build Automation with Maven:* Once the code is retrieved, Maven, a powerful build automation tool, is employed to compile the source code, manage dependencies, and package the application into deployable artifacts. This step ensures consistency and reliability in the build process.
+1. *Source Code Acquisition:*   First, we get the latest version of our application's code from GitHub. It's like downloading a movie to watch, but instead, we're downloading code to work on.
+ 
+2. *Build Automation with Maven:*2. Next, we use Maven to turn our code into something the computer understands. Maven is like a magical builder that puts all the pieces of our code together and makes it work.
 
-4. *Code Quality Assessment with SonarQube:* Before deployment, ensuring code quality is crucial. SonarQube, a static code analysis tool, is integrated into the pipeline to perform comprehensive scans of the codebase. It identifies bugs, vulnerabilities, and code smells, empowering developers to address issues early in the development lifecycle.
+3. *Code Quality Assessment with SonarQube:* 3.Before we share our application with the world, we want to make sure it's good quality. So, we use SonarQube to check if there are any mistakes or things we can do better. It's like having a friendly robot that reads through our code and tells us if there are any problems.
 
-5. *Automated Deployment with Tomcat:* After passing through the quality checks, the application is automatically deployed using Apache Tomcat, a popular web server and servlet container. Tomcat provides a reliable environment for hosting Java-based web applications, ensuring seamless deployment without manual intervention.
+4. *Automated Deployment with Tomcat:* Once everything looks good, we use Tomcat to put our application on the internet. Tomcat is like a big shelf where we can display our application for everyone to see. It makes sure our app is running smoothly for people to use.
 
 *Benefits:*
 - *Efficiency:* By automating the entire CI/CD pipeline, development cycles are significantly shortened, enabling faster time-to-market for new features and bug fixes.
