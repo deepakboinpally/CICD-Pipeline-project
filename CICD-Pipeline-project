@@ -1,10 +1,10 @@
 # CICD-Pipeline-project
-*Title: Automating Deployment of Netflix Application using Jenkins CI/CD Pipeline*
+Title: Automating Deployment of Web Application using Jenkins CI/CD Pipeline
 
-*Overview:*
+Overview:
 In today's fast-paced software development environment, the need for efficient Continuous Integration and Continuous Deployment (CI/CD) processes is paramount. This project aimed to streamline the deployment of a Netflix-like application by leveraging Jenkins, an industry-standard automation server, to automate the build, test, and deployment stages.
 
-*Project Workflow:*
+Project Workflow:
 1. Source Code Acquisition:First, we get the latest version of our application's code from GitHub. It's like downloading a movie to watch, but instead, we're downloading code to work on.
  
 2. Build Automation with Maven: Next, we use Maven to turn our code into something the computer understands. Maven is like a magical builder that puts all the pieces of our code together and makes it work.
